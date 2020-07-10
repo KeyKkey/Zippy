@@ -1,3 +1,168 @@
-body{
-    background-color: lightcoral;
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14pt;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    background-color: white;
+    min-width: 1400px;
+}
+
+.container {
+    width: 710px;
+    margin: 0 auto;
+}
+
+.title__format {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 44pt;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    color: #323232;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    vertical-align: top;
+    background-color: #ffe26d;
+    width: 125px;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    color: #fefefe;
+    background-color: #62497c;
+}
+
+.page__header {
+    background-image: url("img/moan2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #48576e;
+    padding-top: 40px;
+    padding-bottom: 260px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu {
+    margin-left: 190px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.header__menu li {
+    list-style: none;
+    padding-right: 35px;
+}
+
+.header__menu a:hover {
+    color: #ffe26d;
+}
+
+.header__offer {
+    margin-top: 113px;
+    margin-bottom: 80px;
+}
+
+.header__offer h1 {
+    color: #fff;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+
+.header__offer p {
+    color: #adb2bb;
+    font-size: 19pt;
+    font-family: 'Roboto';
+}
+
+.features h2 {
+    margin-bottom: 70px;
+}
+
+.features__main__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__main__block p {
+    font-family: "Roboto";
+    font-size: 29pt;
+    color: #040405;
+    white-space: wrap;
+}
+
+.features__blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.features__block__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.features__block__info img {
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.features__block__info h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #62497c;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.features__block__info p {
+    color: #040405;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btn__learn {
+    margin: 0 auto;
+}
+
+.features::after {
+    content: "";
+    width: 694px;
+    display: table;
+    border-bottom: 2px solid #e7e7e7;
+    padding-top: 59px;
+    padding-bottom: 50px;
+    margin: 0 auto;
 }
