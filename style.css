@@ -79,6 +79,12 @@ body {
     padding-right: 35px;
 }
 
+.features__image-block {
+    width: 100%;
+    position: relative;
+    left: 50px;
+}
+
 .header__menu a:hover {
     color: #ffe26d;
 }
@@ -106,12 +112,12 @@ body {
     margin-bottom: 70px;
 }
 
-.features__main__block {
+.features__main-block {
     display: flex;
     justify-content: space-between;
 }
 
-.features__main__block p {
+.features__main-block p {
     font-family: "Roboto";
     font-size: 29pt;
     color: #040405;
@@ -124,19 +130,19 @@ body {
     margin-top: 50px;
 }
 
-.features__block__info {
+.features__block-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 190px;
 }
 
-.features__block__info img {
+.features__block-info img {
     display: block;
     margin: 0px auto 0px auto;
 }
 
-.features__block__info h4 {
+.features__block-info h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14pt;
     font-weight: bold;
@@ -146,7 +152,7 @@ body {
     padding-top: 20px;
 }
 
-.features__block__info p {
+.features__block-info p {
     color: #040405;
     margin-bottom: 35px;
     margin-top: 15px;
@@ -165,4 +171,219 @@ body {
     padding-top: 59px;
     padding-bottom: 50px;
     margin: 0 auto;
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projects__block {
+    display: flex;
+    background-color: #efefef;
+    margin-bottom: 47px;
+}
+
+.projects__block-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h2 {
+    margin-bottom: 50px;
+}
+
+.projects__block-article h4 {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #040405;
+    padding-top: 30px;
+    padding-left: 40px;
+
+}
+
+.projects__block-article p {
+    text-align: left;
+    color: #040405;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 0px;
+    white-space: wrap;
+}
+
+.projects .btn__launch__case {
+    padding-top: 13px;
+    vertical-align: top;
+    background-color: #fefefe;
+    width: 165px;
+    border-radius: 2px;
+    white-space: nowrap;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.projects .btn__launch__case:hover {
+    background-color: #62497c;
+}
+
+.projects__block-article:hover {
+    background-color: #ffe26d;
+}
+
+.prising__table {
+    margin-top: 60px;
+    padding-bottom: 70px;
+}
+
+.prising__table__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.prising__table__tariffe {
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.prising__table__tariffe h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #040405;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+
+.prising__table__tariffe h5 {
+    text-transform: uppercase;
+    color: #bababa;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.prising__table__tariffe ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.prising__table__tariffe li {
+    font-size: 10pt;
+    color: #2c2c2d;
+    padding-bottom: 5px;
+}
+
+.btn__buy {
+    margin-left: 70px;
+    width: 80px;
+}
+
+.prising__table__tariffe:nth-child(2)::after,
+.prising__table__tariffe:nth-child(3)::after {
+    content: "";
+    height: 240px;
+    display: table;
+    border-left: 2px solid #bababa;
+    position: absolute;
+    top: 20px;
+}
+
+.video__projects {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video__projects-container {
+    background-color: #62497c;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+
+.video__projects-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.video__projects-video:nth-child(2) {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.video__projects h2 {
+    color: #fff;
+}
+
+.video__projects b {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 500px;
+}
+
+.video__projects time {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.zippy__line-first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zippy__line-second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    padding-bottom: 130px;
+}
+
+.zippy__person {
+    display: flex;
+    flex-direction: column;
+}
+
+.zippy__team h2 {
+    margin-top: 70px;
+}
+
+.zippy__person h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #040405;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.zippy__person b {
+    font-family: 'Montserrat', sans-serif;
+    color: #bababa;
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+.zippy__life {
+    background-color: #efefef;
+    padding-bottom: 90px;
+    padding-top: 30px;
+}
+
+.zippy__life-gallery {
+    margin-top:10px;
 }
